@@ -1,0 +1,39 @@
+name: libflutter_graph
+description: A new flutter module project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #  cupertino_icons: ^0.1.2
+  # 图表库
+  #  charts_flutter: ^0.8.1
+  fl_chart: ^0.4.1
+  # 吐司库
+  fluttertoast: ^3.1.3
+  # 序列化库
+  json_annotation: ^3.0.0
+  # 偏好存储
+  # shared_preferences: ^0.5.4+5
+  # 事件总线
+#  event_bus: ^1.1.0
+
+dev_dependencies:
+  # 注意：这个库必须引用，不然无法自动生成全局的那个文件
+  build_runner: ^1.2.8
+  # 序列化库
+  json_serializable: ^3.2.3
+
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.libflutter_graph
+    iosBundleIdentifier: com.example.libflutterGraph
